@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+	int total_seconds;
+
+	printf("초를 입력: ");
+	scanf("%d", &total_seconds);
+
+	int minutes = total_seconds / 60;
+	int seconds = total_seconds % 60;
+
+	printf("%d초는 %d분 %d초입니다.", total_seconds, minutes, seconds);
+
+	return 0;
+}
