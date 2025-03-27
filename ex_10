@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+	int num1, num2, num3;
+
+	printf("정수 새게를 입력: ");
+	scanf("%d%d%d%", &num1, &num2, &num3);
+
+	int sum = num1 + num2 + num3;
+	float average = sum / 3.0;
+
+	printf("합: %d\n평균: %.2lf", sum, average);
+
+	return 0;
+}
