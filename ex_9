@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+
+	int year, month, day;
+
+	printf("년, 월, 일을 입력: ");
+	scanf("%d.%d.%d", &year, &month, &day);
+
+	printf("%d.%d.%d\n", year, month, day);
+
+	return 0;
+}
