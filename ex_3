@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+	double num1, num2;
+
+	printf("숫자를 입력하세요: ");
+	scanf("%lf", &num1);
+
+	printf("숫자를 입력하세요: ");
+	scanf("%lf", &num2);
+
+	printf("덧셈의 결과: %.2lf\n", num1 + num2);
+	printf("뺄셈의 결과: %.2lf\n", num1 - num2);
+	printf("곱셈의 결과: %.2lf\n", num1 * num2);
+	printf("나눗셈의 결과: %2.lf\n", num1 / num2);
+
+	return 0;
+}
