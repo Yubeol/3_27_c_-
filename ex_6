@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+	int num;
+
+	printf("세자리의 정수를 입력: ");
+	scanf("%d", &num);
+
+	int hundreds = num / 100;
+	int tens = (num / 10) %10;
+	int ones = num % 10;
+
+	printf("백의 자리: %d\n", hundreds);
+	printf("십의 자리: %d\n", tens);
+	printf("일의 자리: %d\n", ones);
+
+	return 0;
+}
