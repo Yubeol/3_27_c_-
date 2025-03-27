@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+	char name[100];
+	int score;
+	int age;
+	char grade;
+
+	printf("학생의 이름은 입력하세요: ");
+	scanf("%s", name);
+
+	printf("학생의 점수를 입력하새요: ");
+	scanf("%d", &score);
+
+	printf("학생의 나이를 입력하새요: ");
+	scanf("%d", &age);
+
+	printf("학생의 등급를 입력하새요: ");
+	scanf(" %c", &grade);
+
+	printf("\n학새의 정보는 다음과 같습니다.\n");
+	printf("이름: %s\n", name);
+	printf("점수: %d\n", score);
+	printf("나이: %d\n", age);
+	printf("등급: %c\n", grade);
+
+	return 0;
+}
