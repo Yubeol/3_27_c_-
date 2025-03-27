@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+
+	int width, height;
+
+	printf("가로길이를 입력: ");
+	scanf("%d", &width);
+
+	printf("세로길이를 입력: ");
+	scanf("%d", &height);
+
+	int area = width * height;
+
+	printf("가로: %d 세로: %d 넓이: %d\n", width, height, area);
+	
+	return 0;
+}
